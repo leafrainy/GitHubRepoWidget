@@ -179,8 +179,8 @@
             $('#stars').attr({'href':data.html_url,'text':"Star "+data.stargazers_count});
             $('#fork').attr({'href':data.html_url,'text':"Fork "+data.forks_count});
             $('.git_info').text(data.description);
-            $('#git_download a').attr('href',data.html_url+"/zipball/master")
-            $('#git_laster span').text(data.pushed_at)
+            $('#git_download a').attr('href',data.html_url+"/zipball/master");
+            $('#git_laster span').text(data.pushed_at);
             
         }});
     $.ajax({
@@ -195,7 +195,7 @@
                 }
                 
             }
-            $('.git_commits_content').html(eventStr)
+            $('.git_commits_content').html(eventStr);
         }
     });
     </script>
