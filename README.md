@@ -9,14 +9,14 @@
 # 使用方式
 假设你的项目名称是ceshiaaa，你的git账户是ceshihaha
 
-则修改data-repo信息为
-
 ```html
-data-repo="ceshihaha/ceshiaaa"
+<div class="git_box" data-repo="ceshihaha/ceshiaaa"></div>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="github.min.js"></script>
 ```
 
 # 效果
 ![](https://ww4.sinaimg.cn/large/006tNbRwly1fe1t6ssnixj30fu091q4h.jpg)
 
 # Todo
-1.改为js动态加载，仅引用js即可
+1.改为js动态加载，仅引用js即可【170401完成】
